@@ -1,0 +1,51 @@
+:root {
+    --brand-iris: #4D5AE5;
+    --active-ocean: #404BBF;
+    --headings-navy-blue: #2E2F42;
+    --text-slate: #434455;
+    --white: #FFFFFF;
+    --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: var(--text-slate);
+    background-color: #FFF;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--brand-iris);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: ;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: var(--headings-navy-blue);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: ;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.nav-link {
+    color: var(--headings-navy-blue);
+    font-weight: 500;
+}
