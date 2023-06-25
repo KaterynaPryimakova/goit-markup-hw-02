@@ -11,6 +11,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    font-style: normal;
     color: var(--text-slate);
     background-color: #FFF;
     line-height: 1.5;
@@ -18,11 +19,12 @@ body {
 
 }
 
-ul {
+/*Header*/
+.list {
     list-style-type: none;
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
@@ -34,6 +36,7 @@ a {
     line-height: ;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .logo-accent {
@@ -45,7 +48,43 @@ a {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.nav-link {
+.site-nav .link {
     color: var(--headings-navy-blue);
     font-weight: 500;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--active-ocean);
+}
+.contacts .link {
+    color: var(--text-slate);
+    font-style: normal;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--active-ocean);
+}
+
+/* Main Studio*/
+.bloc-title {
+    background-color: var(--headings-navy-blue);
+}
+.main-title {
+    color: var(--white);
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.button-title {
+    color: var(--white);
+    background-color: var(--brand-iris);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+}
+.values-title {
+    color: var(--headings-navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
 }
