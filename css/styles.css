@@ -12,6 +12,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
+    font-weight: 500;
     color: var(--text-slate);
     background-color: #FFF;
     line-height: 1.5;
@@ -49,7 +50,6 @@ body {
 }
 .site-nav .link {
     color: var(--headings-navy-blue);
-    font-weight: 500;
 }
 
 .site-nav .link:hover,
@@ -79,14 +79,17 @@ body {
 .button-title {
     color: var(--white);
     background-color: var(--brand-iris);
-    font-weight: 500;
     letter-spacing: 0.64px;
+    cursor: pointer;
+}
+.button-title:hover,
+.button-title:focus {
+    background-color: var(--active-ocean);
 }
 
 .sub-title {
     color: var(--headings-navy-blue);
     font-size: 20px;
-    font-weight: 500;
     letter-spacing: 0.4px;
 }
 .parts-title {
@@ -118,4 +121,19 @@ body {
     line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
+/*Portfolio8*/
+.filter {
+    color: var(--brand-iris);
+    letter-spacing: 0.64px;
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+    color: var(--white);
+    background-color: var(--active-ocean);
+}
+.project-text {
+    color: var(--text-slate);
 }
