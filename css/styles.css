@@ -19,7 +19,6 @@ body {
 
 }
 
-/*Header*/
 .list {
     list-style-type: none;
 }
@@ -27,13 +26,13 @@ body {
 .link {
     text-decoration: none;
 }
-
+/*Header*/
 .logo {
     color: var(--brand-iris);
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
-    line-height: ;
+    line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -44,7 +43,7 @@ body {
     font-size: 18px;
     font-family: Raleway;
     font-weight: 800;
-    line-height: ;
+    line-height: 1.16;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -67,11 +66,12 @@ body {
 }
 
 /* Main Studio*/
-.bloc-title {
+.title-bloc {
     background-color: var(--headings-navy-blue);
 }
 .main-title {
     color: var(--white);
+    font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
@@ -82,9 +82,40 @@ body {
     font-weight: 500;
     letter-spacing: 0.64px;
 }
-.values-title {
+
+.sub-title {
     color: var(--headings-navy-blue);
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
+}
+.parts-title {
+    color: var(--headings-navy-blue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.team-bloc {
+    background-color: var(--cloud);
+}
+.team-card {
+    background-color: var(--white);
+}
+/*footer*/
+.lower-bloc {
+    background-color: var(--headings-navy-blue);
+}
+.lower-text {
+    color: var(--cloud);
+}
+.logo-accent-lower {
+    color:var(--cloud);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
