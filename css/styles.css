@@ -132,7 +132,7 @@ body {
 }
 /*Portfolio*/
 .filter {
-    color: var(--brand-iris);
+    color: var(--brand-color-iris);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
