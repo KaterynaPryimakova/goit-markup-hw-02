@@ -48,10 +48,11 @@ body {
 .page-link:focus {
     color: var(--active-ocean);
 }
-
+.contacts {
+    font-style: normal;
+}
 .contacts .link {
     color: var(--text-slate);
-    font-style: normal;
 }
 .contacts .link:hover,
 .contacts .link:focus {
