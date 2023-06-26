@@ -11,8 +11,6 @@
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
     color: var(--text-slate);
     background-color: #FFF;
     line-height: 1.5;
@@ -28,7 +26,7 @@ body {
     text-decoration: none;
 }
 /*Header*/
-.navigate.logo-main {
+.logo-main {
     color: var(--brand-color-iris);
     font-size: 18px;
     font-family: "Raleway", sans-serif;
@@ -36,31 +34,24 @@ body {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 .logo-accent {
     color: var(--headings-navy-blue);
-    font-size: 18px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
-.navigate .page-link {
+.page-link {
     color: var(--headings-navy-blue);
+    font-weight: 500;
 }
 
-.navigate .page-link:hover,
+.page-link:hover,
 .page-link:focus {
     color: var(--active-ocean);
 }
-.contacts {
-    font-style: normal;
-}
+
 .contacts .link {
     color: var(--text-slate);
+    font-style: normal;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -120,15 +111,10 @@ body {
 }
 .lower-text {
     color: var(--cloud);
+    font-weight: normal;
 }
 .logo-accent-lower {
     color:var(--cloud);
-    font-size: 18px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 /*Portfolio*/
 .filter {
@@ -147,6 +133,7 @@ body {
 .text {
     color: var(--text-slate);
     font-size: 16px;
+    font-weight: normal;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
