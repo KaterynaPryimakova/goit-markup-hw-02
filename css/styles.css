@@ -28,7 +28,7 @@ body {
     text-decoration: none;
 }
 /*Header*/
-.logo {
+.logo-maine {
     color: var(--brand-iris);
     font-size: 18px;
     font-family: "Raleway", sans-serif;
