@@ -28,7 +28,7 @@ body {
     text-decoration: none;
 }
 /*Header*/
-.logo-maine {
+.navigate.logo-main {
     color: var(--brand-color-iris);
     font-size: 18px;
     font-family: "Raleway", sans-serif;
@@ -48,12 +48,12 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.page {
+.navigate .page-link {
     color: var(--headings-navy-blue);
 }
 
-.page:hover,
-.page:focus {
+.navigate .page-link:hover,
+.page-link:focus {
     color: var(--active-ocean);
 }
 .contacts {
