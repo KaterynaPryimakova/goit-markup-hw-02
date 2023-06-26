@@ -31,9 +31,9 @@ body {
 .logo {
     color: var(--brand-iris);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -42,9 +42,9 @@ body {
 .logo-accent {
     color: var(--headings-navy-blue);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -56,9 +56,11 @@ body {
 .site-nav .link:focus {
     color: var(--active-ocean);
 }
+.contacts {
+    font-style: normal;
+}
 .contacts .link {
     color: var(--text-slate);
-    font-style: normal;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -71,6 +73,7 @@ body {
 }
 .main-title {
     color: var(--white);
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -79,6 +82,8 @@ body {
 .button-title {
     color: var(--white);
     background-color: var(--brand-iris);
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     cursor: pointer;
 }
@@ -90,15 +95,18 @@ body {
 .sub-title {
     color: var(--headings-navy-blue);
     font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 .parts-title {
     color: var(--headings-navy-blue);
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 .team-bloc {
     background-color: var(--cloud);
@@ -116,15 +124,17 @@ body {
 .logo-accent-lower {
     color:var(--cloud);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-/*Portfolio8*/
+/*Portfolio*/
 .filter {
     color: var(--brand-iris);
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     background-color: var(--cloud);
     cursor: pointer;
@@ -134,6 +144,9 @@ body {
     color: var(--white);
     background-color: var(--active-ocean);
 }
-.project-text {
+.text {
     color: var(--text-slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02px;
 }
