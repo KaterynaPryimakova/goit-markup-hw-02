@@ -48,12 +48,12 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.site-nav .link {
+.page {
     color: var(--headings-navy-blue);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.page:hover,
+.page:focus {
     color: var(--active-ocean);
 }
 .contacts {
